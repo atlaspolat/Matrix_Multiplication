@@ -12,7 +12,6 @@ public interface Matrix {
     Matrix transpose();
     
     Matrix scalarMultiply(double scalar);
-    Matrix multiInverse();
     
     
     double determinant();  // Only for square matrices

@@ -54,12 +54,6 @@ public class GenericMatrix implements Matrix {
 	}
 
 	@Override
-	public Matrix multiInverse() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
 	public double determinant() {
 		// TODO Auto-generated method stub
 		return 0;
