@@ -12,7 +12,11 @@ public interface Matrix {
     Matrix transpose();
     
     Matrix scalarMultiply(double scalar);
+    Matrix multiInverse();
     
-    boolean isSquare();
+    
     double determinant();  // Only for square matrices
+    boolean isSquare();
+    
+    
 }
