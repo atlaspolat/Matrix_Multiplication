@@ -14,7 +14,7 @@ public interface Matrix {
     Matrix scalarMultiply(double scalar);
     
     
-    double determinant();  // Only for square matrices
+    double determinant();  // Only for test purposes matrices
     boolean isSquare();
     
     
